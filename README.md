@@ -25,10 +25,10 @@ Tugas ini bertujuan untuk membangun sebuah prototipe **formulir registrasi event
 
 Sesuai dengan ketentuan tugas dan struktur pada kode proyek (src/index.html), formulir ini mengimplementasikan:
 
-1. Metode Pengiriman Data:
+1. **Metode Pengiriman Data:**
 - Menggunakan `method="post"` dengan `action="/proses-pendaftaran"` agar data registrasi dikirimkan secara aman melalui badan (body) request HTTP.
 
-2. Penggunaan Kontrol Input:
+2. **Penggunaan Kontrol Input:**
 - Nama Lengkap: `<input type="text">` (Wajib diisi)
 - Email: `<input type="email">` (Validasi format email)
 - Password: `<input type="password">` (Dukungan pesan bantuan batas karakter)
@@ -37,12 +37,12 @@ Sesuai dengan ketentuan tugas dan struktur pada kode proyek (src/index.html), fo
 - Program Studi: `<select>` dengan opsi pilihan prodi
 - Alamat: `<textarea>` multi-baris untuk entri alamat lengkap
 
-3. Jenis Tombol (3 Tipe Button):
+3. **Jenis Tombol (3 Tipe Button):**
 - Submit `(type="submit")`: Tombol "Daftar" (btn-primary) untuk mengirimkan data formulir.
 - Reset `(type="reset")`: Tombol "Reset" (btn-reset) untuk mengosongkan seluruh isian formulir.
 - Button `(type="button")`: Tombol "Kembali" (btn-secondary) untuk navigasi tambahan.
 
-4. Keterhubungan Kontrol & Label:
+4. **Keterhubungan Kontrol & Label:**
 - Setiap field memiliki atribut label yang terhubung secara eksplisit menggunakan elemen for dan atribut id pada elemen input terkait, dilengkapi atribut name untuk identifikasi data di sisi server.
 
 ---
